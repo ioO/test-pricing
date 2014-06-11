@@ -8,6 +8,6 @@ var offersData = [
         price: 1000
     }
 ];
-Template.offersList.helpers({
+Template.offerList.helpers({
     offers: offersData
 });
