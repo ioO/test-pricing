@@ -5,9 +5,24 @@
 <body>
     <div class="container">
         <h1>Utilisez running lean dans votre prochain projet</h1>
-        <div id="main">
-            {{> offerList}}
-        </div>
+        <table id="main">
+            <thead>
+                <tr>
+                    <th>Catégorie</th>
+                    <th>Quantité</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{> offerList}}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
     </div>
 </body>
 
