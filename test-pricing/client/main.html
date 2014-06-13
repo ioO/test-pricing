@@ -4,25 +4,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>Utilisez running lean dans votre prochain projet</h1>
-        <table id="main">
-            <thead>
-                <tr>
-                    <th>Catégorie</th>
-                    <th>Quantité</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                {{> offerList}}
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="2">Total</td>
-                    <td id="total"></td>
-                </tr>
-            </tfoot>
+        <div class="alert alert-info">
+            <h1>Utilisez running lean dans votre prochain projet</h1>
+        </div>
+	    <table class="table table-striped">
+	        <thead>
+	            <tr>
+	                <th>Catégorie</th>
+	                <th>Quantité</th>
+	                <th>Total</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	            {{> offerList}}
+	        </tbody>
         </table>
+        <button class="btn btn-success btn-lg pull-right" type="button">S'inscrire</button>
     </div>
 </body>
 
